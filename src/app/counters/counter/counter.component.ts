@@ -14,7 +14,7 @@ import { Component } from '@angular/core';
 })
 export class CounterComponent {
   title: string = 'Counter App';
-  number: number = 2;
+  number: number = 0;
   initial: number = 5;
 
   accumulate(value: number) {
