@@ -14,8 +14,4 @@ export class MainPageComponent {
   };
 
   constructor(private dbzService: DbzService) {}
-
-  addCharacter(character: Character) {
-    //this.characters.push(character);
-  }
 }
