@@ -1,0 +1,17 @@
+<h3>Add</h3>
+<hr />
+<form (ngSubmit)="addCharacter()">
+  <input
+    type="text"
+    placeholder="Name"
+    name="name"
+    [(ngModel)]="character.name"
+  />
+  <input
+    type="number"
+    placeholder="Power"
+    name="power"
+    [(ngModel)]="character.power"
+  />
+  <button type="submit">Add</button>
+</form>
